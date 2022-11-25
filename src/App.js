@@ -1,7 +1,8 @@
+import Homepage from './Home/index'
 function App() {
   return (
     <>
-    hello
+    <Homepage />
     </>
   );
 }
