@@ -1,8 +1,9 @@
 import React from 'react'
-
+import './index.css'
 function index() {
   return (
-    <div className='Container'>
+    <div className='Canvas-container'>
+        a
     </div>
   )
 }

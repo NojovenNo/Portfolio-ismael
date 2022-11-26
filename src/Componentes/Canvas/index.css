@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Canvas-container {
+    margin: auto;
+    width: 99%;
+    max-width: 1372px;
+    height: 600px;
+    background-color: black;
+}
+
+@media screen and (max-width: 802px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .Canvas-container {
+    width: 80%;
+    height: 350px;
+    background-color: black;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .Canvas-container {
+    width: 80%;
+    height: 350px;
+    background-color: black;
+}
+}
