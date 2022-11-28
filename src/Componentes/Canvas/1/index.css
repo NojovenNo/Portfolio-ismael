@@ -1,7 +1,13 @@
+@font-face {font-family: "Stem-Light";
+  src: url("/assets/fonts/01f6b7bcb162c58067f1f968902c2f17.woff") format("woff")
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Stem-Light';
+    letter-spacing: 4px;
+    font-weight: 700;
 }
 
 .canvas{
@@ -36,7 +42,7 @@
     justify-content: center;
     align-items: center;
 }
-.text-date {
+.text-date{
     text-align: left;
     vertical-align: middle;
     line-height: 5px;
@@ -44,8 +50,10 @@
 .text-tittle {
     text-align: left;
     vertical-align: middle;
-    font-size: 41px;
+    font-size: 32px;
     line-height: 90px;
+    font-style: normal;
+    font-weight: bolder;
 }
 
 .text-work {
@@ -59,6 +67,12 @@
     width: 99%;
     max-width: 589px;
     height: 480px;
+    }
+    .text-tittle {
+        font-size: 25px;
+    }
+
+
 }
 
 @media screen and (max-width: 520px) {
@@ -68,5 +82,7 @@
     max-width: 423px;
     height: 259px;
 }
-}
+    .text-tittle {
+        font-size: 16px;
+    }
 }
