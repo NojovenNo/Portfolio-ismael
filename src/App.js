@@ -1,7 +1,8 @@
 import Homepage from './Home/index'
 import About from './Componentes/Canvas/About/Index'
-import NavBar from './Componentes/Navbar/index'
+import NavBar from './Componentes/Nav/index'
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Nav } from 'react-bootstrap';
 function App() {
   return (
     <BrowserRouter>
