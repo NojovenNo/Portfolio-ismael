@@ -3,7 +3,7 @@ import './index.css'
 function index(props) {
   return (
     <div className="canvas">
-      <img src={props.foto} alt="" style={{ height: "100%", width: "100%" }} />
+      <img src={props.foto} alt="" style={{ height: "100%", width: "98%", margin:"1%" }} />
 
       <div className="canvas-overlay">
         <div className="canvas__details">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Componentes/Navbar/index'
-import Project  from '../Componentes/Canvas/1/index'
+import Project  from '../Componentes/Canvas/index'
 
 function index() {
   return (

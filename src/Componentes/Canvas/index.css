@@ -31,8 +31,8 @@
 .canvas-overlay {
     position: absolute;
     top: 0;
-    margin: auto;
-    width: 100%;
+    margin: 1%;
+    width: 98%;
     height: 100%;
     color: white;
     transition: .5s ease;
